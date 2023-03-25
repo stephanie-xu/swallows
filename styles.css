@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
+@import "animate.css/animate.min.css";
+
+.row {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.bg-elements {
+    background-color:gainsboro;
+}
+
+.swallow {
+    width: 20%;
+    position:absolute;
+    bottom:-15%;
+    left: 10%;
+}
+
+.green-blob {
+    width: 15%;
+    position:absolute;
+    top:20%;
+}
+
+.brown {
+    position:absolute;
+    top:0%;
+    left:7%;
+    width:35%;
+}
+
+.circle {
+    position:absolute;
+    top:80%;
+    left:45%;
+    width:35%;
+}
+
+.green-circle {
+    position:absolute;
+    top:50%;
+    right:-2%;
+    width:35%;
+}
+
+.lines-right {
+    position:absolute;
+    top:10%;
+    right:0%;
+    width:20%;
+}
+
+.lines-left {
+    position:absolute;
+    top: 24%;
+    width:15%;
+}
+
+.centeredTxt {
+    position: absolute;
+    top:35%;
+    left:40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Halant', serif;
+    font-size:150%;
+}
